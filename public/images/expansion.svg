@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 825" role="img">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="74%"><stop offset="0" stop-color="#17233a"/><stop offset="1" stop-color="#05060a"/></radialGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ffd166"/></marker>
+  </defs>
+  <rect width="1200" height="825" fill="url(#bg)"/>
+  <g stroke="#ffd166" stroke-width="5" marker-end="url(#arrow)" opacity=".85">
+    <line x1="600" y1="413" x2="170" y2="170"/><line x1="600" y1="413" x2="1010" y2="172"/>
+    <line x1="600" y1="413" x2="160" y2="654"/><line x1="600" y1="413" x2="1040" y2="655"/>
+    <line x1="600" y1="413" x2="600" y2="92"/><line x1="600" y1="413" x2="600" y2="742"/>
+  </g>
+  <g fill="#4cc9f0">
+    <circle cx="600" cy="413" r="18"/><circle cx="170" cy="170" r="24"/><circle cx="1010" cy="172" r="28"/>
+    <circle cx="160" cy="654" r="22"/><circle cx="1040" cy="655" r="20"/><circle cx="600" cy="92" r="19"/><circle cx="600" cy="742" r="25"/>
+  </g>
+  <g fill="#fff" opacity=".75"><circle cx="292" cy="402" r="2"/><circle cx="870" cy="430" r="2"/><circle cx="460" cy="244" r="1.7"/><circle cx="744" cy="606" r="1.8"/></g>
+</svg>

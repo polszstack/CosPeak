@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 825" role="img">
+  <defs>
+    <radialGradient id="sun" cx="45%" cy="45%" r="50%"><stop stop-color="#fffbd2"/><stop offset=".35" stop-color="#ffd166"/><stop offset="1" stop-color="#ff6b35"/></radialGradient>
+    <radialGradient id="planet" cx="36%" cy="34%" r="58%"><stop stop-color="#7bd88f"/><stop offset=".42" stop-color="#2f7f87"/><stop offset="1" stop-color="#08121e"/></radialGradient>
+  </defs>
+  <rect width="1200" height="825" fill="#05060a"/>
+  <circle cx="762" cy="408" r="232" fill="url(#sun)"/>
+  <circle cx="604" cy="396" r="104" fill="url(#planet)"/>
+  <path d="M516 380 C574 418 646 430 708 402" fill="none" stroke="#dfffe5" stroke-width="7" opacity=".45"/>
+  <path d="M520 444 C588 478 656 474 720 444" fill="none" stroke="#4cc9f0" stroke-width="6" opacity=".35"/>
+  <g fill="#fff"><circle cx="120" cy="128" r="2"/><circle cx="242" cy="596" r="1.7"/><circle cx="1012" cy="704" r="2"/><circle cx="1026" cy="170" r="1.8"/><circle cx="414" cy="154" r="1.5"/></g>
+</svg>

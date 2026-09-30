@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 825" role="img">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#4cc9f0" stop-opacity=".18"/><stop offset=".65" stop-color="#7bd88f" stop-opacity=".12"/><stop offset="1" stop-color="#05060a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="42%"><stop stop-color="#fff7d0"/><stop offset=".35" stop-color="#ffd166"/><stop offset="1" stop-color="#9d4edd" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="825" fill="#05060a"/>
+  <circle cx="600" cy="414" r="385" fill="url(#halo)"/>
+  <g transform="rotate(-18 600 414)">
+    <ellipse cx="600" cy="414" rx="380" ry="94" fill="#4cc9f0" opacity=".2"/>
+    <ellipse cx="600" cy="414" rx="300" ry="58" fill="#ff6b8a" opacity=".28"/>
+    <circle cx="600" cy="414" r="120" fill="url(#core)"/>
+    <path d="M302 416 C446 308 756 526 910 378" fill="none" stroke="#fff5bd" stroke-width="13" opacity=".75"/>
+  </g>
+  <circle cx="600" cy="414" r="460" fill="none" stroke="#7bd88f" stroke-width="5" stroke-dasharray="18 18" opacity=".38"/>
+</svg>
